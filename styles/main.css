@@ -7,7 +7,7 @@
 body {
     background: #b3dbe8;
     color: #000;
-    font-family: sans-serif; /*   add fonts here   */
+    font-family:Abel, 'Arial Narrow', sans-serif; /*   add fonts here   */
     font-size: 100%; /* DO NOT change */
     margin: 0; /* DO NOT change */
 }
@@ -19,7 +19,7 @@ body {
     when using auto, combine it with max-width
     */
 #container {
-    max-width: 1280px;
+    max-width:1280px;
     margin: 2% auto;
 }
 
@@ -42,13 +42,14 @@ aside {
 #sidebar2 {
     background: #006080;
     margin-top: 2%;
+	
 }
 
 /* headings and text */
 
 h1, h2 {
     margin: 0;
-    font-family: serif;  /*   add fonts here   */
+    font-family: Bitter, Times New Roman, serif; /*   add fonts here   */
 }
 
 article h1 {
@@ -111,3 +112,18 @@ aside a:focus, aside a:hover {
 }
 
 /* media queries */
+
+@media screen and (max-width:790px) {
+	#container {width:100%;
+	margin:0;}
+	#sidebar2, aside {width:100%;
+	margin:0;}
+	article{width:100%;}
+	#top-image-container {display:none;}
+}
+
+
+
+
+
+
